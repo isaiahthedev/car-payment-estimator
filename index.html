@@ -3,11 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div id="estimator">
+        <div id="heading">
+            <p class="h-btn">&lt Back to website</p>
+            <p class="h-btn">Close</p>
+        </div>
+        <div id="steps">
+            <button id="step-btn1" class="step-btn"><i class="fa-regular fa-money-bill-1"></i></button>
+            <button id="step-btn2" class="step-btn"><i class="fa-solid fa-tag"></i></button>
+            <button id="step-btn3" class="step-btn"><i class="fa-solid fa-shield-halved"></i></button>
+            <button id="step-btn4" class="step-btn"><i class="fa-solid fa-pen-clip"></i></button>
+            <button id="step-btn5" class="step-btn"><i class="fa-solid fa-car"></i></button>
+        </div>
+        <div id="title">
+            <p>2020 | Toyota | Corolla | SE VCT</p>
+            <p>ESTIMATE YOUR PAYMENT</p>
+        </div>
+        <div id="content">
+            <div id="left">
+                <video controls src="assets/The Truth About Auto Loan Calculators _ Capital One.mp4"></video>
+                <p id="caption1">You can get a personalized trade-in value from Kelley Blue Book.</p>
+                <div id="car-info">
+                    <img id="car-img" src="assets/402204-2020-toyota-corolla.jpg" alt="toyota corolla">
+                    <div id="car-tag">
+                        <h5>2020 Toyota Corolla SE VCT</h5>
+                        <p class="car-text"><span class="bold">VIN: </span>JTDS4RCE9LJ007293</p>
+                        <p class="car-text"><span class="bold">STOCK: </span>LJ007293</p>
+                        <p class="car-text"><span class="bold">MILES: </span>23</p>
+                    </div>
+                </div>
+                <p id="terms">We can deliver messages to the following mobile phone carriers: Major carriers: AT&T, Verizon Wireless, Sprint, T-Mobile, MetroPCS, U.S. Cellular, Alltel, Boost Mobile, Nextel, and Virgin Mobile. Minor carriers: Alaska Communications Systems (ACS), Appalachian Wireless (EKN), Bluegrass Cellular, Cellular One of East Central IL (ECIT), Cellular One of Northeast Pennsylvania, Cincinnati Bell Wireless, Cricket, Coral Wireless (Mobi PCS), COX, Cross, Element Mobile (Flat Wireless), Epic Touch (Elkhart Telephone), GCI, Golden State, Hawkeye (Chat Mobility), Hawkeye (NW Missouri), Illinois Valley Cellular, Inland Cellular, iWireless (Iowa Wireless), Keystone Wireless (Immix Wireless/PC Man), Mosaic (Consolidated or CTC Telecom), Nex-Tech Wireless, NTelos, Panhandle Communications, Pioneer, Plateau (Texas RSA 3 Ltd), Revol, RINA, Simmetry (TMP Corporation), Thumb Cellular, Union Wireless, United Wireless, Viaero Wireless, and West Central (WCC or 5 Star Wireless). ***Carriers are not liable for delayed or undelivered messages***</p>
+            </div>
+            <div id="right">
+                <div id="p1head">
+                    <h5>Shopper Express - Let's configure your deal</h5>
+                    <i class="fa-solid fa-comment-dots"></i>
+                </div>
+                <div id="shopping-tag">
+                    <i class="fa-solid fa-tag"></i>
+                </div>
+                <form action="index.php" method="POST">
+                    <label for="First Name">First Name*</label>
+                    <input required type="text" name="" id="">
+                    <label for="First Name">Last Name*</label>
+                    <input required type="text" name="" id="">
+                    <label for="First Name">Email Address*</label>
+                    <input required type="email" name="" id="">
+                    <label for="First Name">Phone No*</label>
+                    <input required type="text" name="" id="">
+                    <label for="First Name">Zip Code*</label>
+                    <input required type="text" name="" id="">
+                    <input required type="submit" name="" id="submit" value="GET STARTED!">
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="copyright">
+                Terms & Conditions | Powered by: Isaiah
+            </div>
+            <button>NEXT</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
